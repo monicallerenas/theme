@@ -1,0 +1,460 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700,300);
+
+
+.clearfix {
+  *zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+
+/*----------------------------Clase Moni--------------------------------*/
+
+.flat-menu{
+  background-color: gray;
+  height: auto;
+  width:  100%;
+  position: absolute;
+}
+.flat-menu-ml{
+  margin-left: -15px;
+}
+.heart-flat{
+  padding: 5% 0%;
+}
+.text-right{
+  list-style-type: none;
+  padding: 5% 0%;
+}
+.active2{
+  color:white;
+  text-decoration: none !important;
+}
+.flat{
+  display: inline-block;
+  margin-left: 5%;
+}
+ul.sidebar-menu li a.active, ul.sidebar-menu li a:hover, ul.sidebar-menu li a:focus {
+    background:#476b6b;
+    color: #fff;
+    display: block;
+    width: 100%;
+    height: 25px;
+    padding: 3% 3%;
+
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.back-tigre{
+  background-image: url(../images/slider/bg1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 45em;
+ }
+h1{
+  margin-top: 20% !important;
+  color:white !important;
+}
+.ptigre{
+  color:white;
+}
+/*comieza estilo de recta-verde*/
+.recta-verde{
+  background-color:  #66ff66;
+  width: 100%;
+  height: auto;
+}
+.hrecta{
+  color:white;
+}
+.precta{
+  color:white;
+}
+.sub-recta{
+  color:white;
+  display: inline-block;
+}
+.corta{
+  width: 1px;
+  height: 10px;
+  color:white;
+}
+/*--------------------------------Clases Areli---------------------------------*/
+
+
+#green-back{
+  background-color:#04B404;
+  padding: 5%;
+}
+.green-icon{
+  background-color: #0B610B;
+  border-radius:50%;
+  padding: 40%; 
+  color:white;
+  font-size: 30px;
+}
+.green-mt{
+  margin-top: 5%;
+  text-align: left;
+}
+.green-txt{
+  text-align:left;
+  color:white;
+}
+#green-backwhite
+{
+  background-color: #F2F2F2;
+  padding: 5%;
+  
+}
+.green-rec{
+  background-color: white;
+  padding:%;
+  margin-left: 7%;
+
+}
+
+/*---------------------------------Clases ReynaHG-----------------------------*/
+
+.rojo-text-white{
+  color:white;
+}
+
+.rojo-bg-red{
+  background-color: #F24A34;
+}
+
+.no-a:hover{
+  color:#34D351;
+  text-decoration: none;
+}
+
+/*backgrounds*/
+.azul-bg-azul{
+  background-color: #34495e;
+}
+
+.azul-text-gray{
+  color:#bdc3c7;
+}
+
+.azul-bg-footer{
+  background-color: #2c3e51;
+}
+
+
+/*letras y tamaños*/
+
+*{
+  font-family: "Roboto";
+}
+
+/*margenes y paddings*/
+.rojo-pb-3{
+  padding-bottom: 3%;
+}
+
+.rojo-pt-3{
+  padding-top: 3%;
+}
+
+.azul-mt-15 {
+  margin-top: 15px;
+}
+
+.footer-pt-1{
+  padding-top: 1%;
+} 
+
+.footer-pb-1{
+  padding-bottom: 1%;
+}
+
+.mb-3-meet-team{
+  margin-bottom: 3em;
+}
+
+
+/*Clases recuadro verde debajo de menu*/
+
+.under-menu-green{
+    background-color: #2ecc74;
+    padding:2%;
+}
+
+.no-a-menu:hover{
+  color:gray;
+  text-decoration: none;
+}
+
+.green-absolute{
+  position: relative;
+  margin-top:23%;
+}
+
+/*Services*/
+
+.icono-services {
+    font-size: 2em;
+    color: white;
+    height: 2.5em;
+    width: 2.5em;
+    margin-right: 10%;
+    margin-top: 1em;
+    padding-top: .7em;
+    background-color: gray;
+    text-align: center;
+    display: block;
+    border-radius: 100%;
+}
+
+.services-text-blue{
+  color: #142852;
+}
+
+/*About Us*/
+
+.servus-bg-baby-gray{
+  background-color: #EEEEEE; 
+}
+
+/* Botones redes */
+
+.btn-redes {
+    border: 0;
+    color: white;
+    border-radius: 100%;
+    display: inline-block;
+    width: 3em;
+    height: 3em;
+    text-align: center;
+    padding-top:.9em;
+    margin-bottom: 1em;
+}
+.btn-facebook {
+    background-color: #4f7dd4;
+}
+
+.btn-twitter{
+  background-color: #63E1FF;
+}
+
+.btn-google-plus{
+  background-color: #e62e00;
+}
+
+.btn-linkedin{
+  background-color: #0099cc;
+}
+
+
+
+/* menu*/
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color:#34D351;
+    text-decoration: none;
+}
+
+
+
+
+/* Responsive */
+
+@media (min-width: 400px) and (max-width:700px) {
+  /* Ajusta breadcrumb al hacer pequeña la pantalla */
+
+  .green-absolute{
+  position: relative;
+  margin-top:2%;
+}
+
+}
+
+
+
+/* Blog-Areli RT */
+.b-gray{
+background-color: #D8D8D8;
+  }
+.input1{
+  background-color:#FE2E2E !important;
+  color:white;
+  border: 1px solid #FE2E2E;
+}
+.icon{
+  padding: 3%;
+}
+.rec-white{
+  background-color: white;
+  text-align:left;
+  height: 270px;
+  width:730px;
+  margin-left: 7.8%;
+  padding-top: 2%;
+}
+.ml{
+  margin-left: 2%;
+}
+.pad{
+  padding: 2%;
+}
+.mt{
+  margin-top: -2%;
+}
+.ml5{
+  margin-left: 6%;
+}
+.pad4{
+  padding-right: 8%;
+  padding-top:8%;
+  padding-bottom: 8%; 
+}
+.mt2{
+  margin-top:4%;
+}
+.padb{
+ padding: 1%;
+}
+/* Termina Blog Areli RT */
+/* Contact Us Areli Rt */
+.gris{
+  background-color: #f2f2f2;
+}
+.padc{
+  padding-right: 5%;
+  padding-left: 5%;
+}
+.forma{
+  width:100% !important;
+  height: 180px !important;
+}
+.mtf{
+  margin-top:4%;
+}
+/* menu*/
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color:#34D351;
+    text-decoration: none;
+}
+
+/*--------------------------hecho por moni----comienza flat theme-------------------------*/
+  .back-theme{
+    background-color: #f2f2f2;
+  }
+  .img-themes{
+      margin-top: 5%;
+  }
+  .hitem{
+      width: 98%;
+      height: auto;
+      background-color: white;
+      margin-top: -1%;
+      padding: 2%;
+  }
+.pitem1{
+  font-size: 20px;
+  margin-top: 1%;
+}
+.recta-item{
+  width: 10%;
+  height: auto;
+  background-color: blue;
+  color: white;
+  display: inline-block;
+  text-align: center;
+  margin:1%;
+}
+.img-jhon{
+  width: 100%;
+  height: auto;
+  background-color: #f2f2f2;
+  padding: 1%;
+}
+.name-theme{
+  margin-left: 11%;
+  margin-top: -9%;
+}
+.ptheme{
+  margin-left: 10%;
+}
+.img-jhon1{
+  width: 90%;
+  height: 120px;
+  background-color: #f2f2f2;
+  padding: 1%;
+  margin-left: 10%;
+  margin-top: -7%;
+}
+.caricatura-jhon{
+  margin-top: 5%;
+}
+.replay{
+  margin-left:70%;
+}
+.leave{
+  margin-top: 2%;
+}
+.inline{
+  display: inline-block;
+  width: 49%;
+}
+.inline1{
+  margin-top: 1%;
+  height: 100px;
+}
+.btn-color{
+  background-color: #ff6666 !important;
+  color:white;
+  padding: 1%;
+}
+.btn-search{
+  margin-top: 5%!important;
+}
+.menu-flecha{
+  display: inline-block;
+  margin-left: 1%;
+}
+.recta-item1{
+  width: 20%;
+  height: auto;
+  background-color: blue;
+  color: white;
+  display: inline-block;
+  text-align: center;
+  margin:1%;
+}
+/*termina flat theme-------------*
+/*------------------hecho por moni----comienza portfolio-------------------*/
+.fondogris-port{
+      background-color: #f2f2f2;
+}
+.portfolio{
+      width: 107%;
+      height: auto;
+      background-color: white;
+      margin-top: 10%;
+      margin-left: 1%;
+      padding: 2%;
+      color: #000066;
+    }
